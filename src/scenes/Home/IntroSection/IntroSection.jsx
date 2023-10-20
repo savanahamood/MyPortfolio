@@ -1,5 +1,5 @@
 import s from './IntroSection.module.scss';
-import avatar from '../../../assets/avatar.svg';
+import avatar from '../../../assets/savana.png';
 import { AiFillGithub } from 'react-icons/ai';
 import {
   FaFacebookSquare,
@@ -21,7 +21,7 @@ const IntroSection = () => {
 
           <div className={s.description}>
             <p>
-            I'm a full stack web developer<br />
+            I'm a Full-Stack JavaScript Developer<br />
               
             </p>
 
@@ -29,27 +29,30 @@ const IntroSection = () => {
               My skills include proficiency in{' '}
               <i>
                 <b className={s.purple}>
-                JavaScript, React, React Native,
+                JavaScript, ReactJS, NodeJs,
                 </b>
               </i>
               <br />
-              and other relevant technologies. I have experience in
-              integrating various <br />
-              third-party libraries, API integration, push
-              notifications and analytics.
+              and other relevant technologies. <br />
+               {/* I love to create beautiful and functional websites.<br />
+              looking for a place where i can learn and achieve.  */}
             </p>
 
             <p>
               My field of Interest's are building new
               <i>
-                <b className={s.purple}> Technologies and Products</b>
+                <b className={s.purple}> Beautiful & Functional Websites.</b>
               </i>
             </p>
           </div>
         </div>
 
-        <Tilt trackOnWindow={true}>
-          <LazyLoadImage alt="avatar" effect="blur" src={avatar} />
+        <Tilt trackOnWindow={false} tiltEnable={true}>
+          <LazyLoadImage alt="avatar" effect="blur" src={avatar} style={{
+      width: '300px', // Set the desired width
+      height: '300px', // Set the desired height
+      borderRadius: '50%', // Make the image circular
+    }}/>
         </Tilt>
       </div>
 

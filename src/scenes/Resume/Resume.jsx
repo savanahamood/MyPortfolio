@@ -11,7 +11,7 @@ import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 const resumeLink =
-  'https://raw.githubusercontent.com/savanahamood/savana/5e77b18c3c58183f73c45f732855341b8a06fa38/SavanaHamood.pdf';
+  'https://raw.githubusercontent.com/savanahamood/savana/4f090113a8dba3046f4d3877616f77e7f42a174f/SavanaHamood.pdf';
 
 const Resume = () => {
   const pdfWrapper = useRef(null);
@@ -39,7 +39,7 @@ const Resume = () => {
       <div className={s.content}>
         <div className={s.header}>
           <h1 className={s.title}>
-            My <br /> Resume
+            My  Resume
           </h1>
 
           <div className={s.filesImg}>

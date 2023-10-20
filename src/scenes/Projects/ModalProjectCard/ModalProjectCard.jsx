@@ -45,12 +45,19 @@ const ModalProjectCard = () => {
           <Button
             style={{ width: '12rem' }}
             className="primary"
-            href={links.site}
+            href={links.sited}
             target="_blank"
           >
-            <BiLinkExternal /> &nbsp; View project
+            <BiLinkExternal /> &nbsp; Demo Code
           </Button>
-
+          <Button
+            style={{ width: '12rem' }}
+            className="primary"
+            href={links.sitel}
+            target="_blank"
+          >
+            <BiLinkExternal /> &nbsp; Live Website
+          </Button>
           {!!links.repo && (
             <Button
               style={{ width: '12rem' }}

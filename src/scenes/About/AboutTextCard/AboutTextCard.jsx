@@ -11,10 +11,9 @@ const AboutTextCard = () => {
         <br />
         <br />
 
-        A Full Stack Web Developer 
-        {/* with expertise in cross-platform development{' '} */}
-        <br />
-        {/* using React JS. */}
+        A Full Stack Web Developer <br />
+        with expertise in cross-platform development{' '}
+        using NodeJS & ReactJS.
         <br />
         {/* <br /> */}
         I have a Bachelor's degree in Telecommunication and Softwear Engineering

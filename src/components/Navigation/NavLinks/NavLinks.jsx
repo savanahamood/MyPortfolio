@@ -25,12 +25,12 @@ const NavLinks = () => {
         </NavLink>
       </li>
 
-      {/* <li>
+      <li>
         <NavLink to={routes.PROJECTS}>
           <AiOutlineFundProjectionScreen />
           Projects
         </NavLink>
-      </li> */}
+      </li>
 
       <li>
         <NavLink to={routes.RESUME}>
